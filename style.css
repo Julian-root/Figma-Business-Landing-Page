@@ -1,0 +1,125 @@
+.gradient {
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+.black {
+   background-color: black;
+}
+.banniere {
+    background: url(images/banniere.PNG);
+    height: 795px;
+}
+.blue {
+    background-color: #2091f9;
+}
+.gray {
+    background-color: #F5F5F5;
+}
+.footer {
+    background-color: #252B42;
+}
+.message {
+    padding-bottom: 120px;
+}
+.darked {
+    background-color: #252b42;
+}
+.fond {
+    background-image: url(images/fond.png);
+    height: 650px; 
+}
+.radiusfull {
+    border-radius: 75px 75px 75px 75px;
+}
+.radiusnorm {
+    border-radius: 15px 15px 15px 15px;
+}
+.icone-size {
+    width: 40px;
+    height: 48px;
+  
+}
+.size-button {
+    width: 130px; 
+    height: 130px;
+}
+.button-link {
+    transform: translateY(-15px)
+}
+.link-position {
+    transform: translateX(-45px);
+    margin-top: 10px;
+}
+.footer-position {
+    transform: translateY(20px)
+}
+.pricing-padding {
+    transform: translateY(40px);
+}
+/*.text-banniere {
+    transform: translateX(40px);
+}*/
+
+@media all and (max-width: 1024px)
+{
+    .banniere {
+          background: url(images/banniere-mobile.PNG);
+          height: 886px;
+    }
+    /*.text-banniere {
+        transform: translateX(2px);
+    }*/
+    .fond {
+          background-image: url(images/fond-mobile.png); 
+          height: 15px;
+          width: 425px;
+          padding: 110px;
+          transform: translateX(25px)
+          
+    }
+    .icone-lecture {
+          transform: translateY(-50px)
+    }
+    .icone-size {
+          width: 14px;
+          height: 16px;
+          transform: translateX(-5px)
+    }
+    .subscribe {
+          margin-top: 20px;
+          width: 100%;
+    }
+    .link {
+          padding: 45px;
+    }
+    .link-icone {
+        transform: translateY(-295px);
+        margin-left: 80px;
+    }
+    .button-link {
+        transform: translateY(45px);
+        margin-left: 185px;
+    }
+    .size-button {
+        width: 62px; 
+        height: 63px;
+    }  
+    .pricing-position {
+        transform: translateX(130px)
+    }
+    .pricing-position-center {
+        transform: translateX(125px);
+    }
+    .pricing-large {
+        padding: 15px;
+    }
+    .radius-price {
+        border-radius: 15px 15px 15px 15px;
+    }
+    .contact {
+        /* transform: translateY(-180px);
+        margin-left: 115px; */
+    }
+    .deplace-section {
+        transform: translateY(-145px);
+    }
+  }  
